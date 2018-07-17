@@ -1,0 +1,42 @@
+body.login {
+  background-color: #26303c !important;
+  color: #fff;
+}
+
+a {
+  color: #aaa !important;
+}
+
+a:hover {
+  color: #efefef !important;
+}
+
+
+.login h1 a {
+  background-image: url('../images/logo.png');
+  background-size: contain;
+  width: 100%;
+}
+
+
+.login form {
+  background-color: transparent;
+  box-shadow: 0 0px 3px #000;
+}
+
+.login label {
+  color: #ccc;
+}
+
+.login .button-primary {
+  background: #26303c;
+  border: 1px solid;
+  border-color: #26303c;
+  box-shadow: 0 0 2px #000;
+}
+
+.login .button-primary:hover {
+  background: #fff;
+  color: #26303c;
+  text-shadow: none;
+}
