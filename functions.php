@@ -224,7 +224,7 @@ add_action( 'widgets_init', 'viaductOne_squared_widgets_init' );
 function viaductOne_squared_scripts() {
 	wp_enqueue_style( 'viaductOne-squared-style', get_stylesheet_uri() );
 
-	wp_enqueue_style( 'viaductOne-squared-fa', '/wp-content/themes/viaductOne-squared/fontAwesome/all.css' );
+	wp_enqueue_style( 'viaductOne-squared-fa', '//use.fontawesome.com/releases/v5.1.0/css/all.css' );
 
 	wp_enqueue_script( 'viaductOne-squared-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
